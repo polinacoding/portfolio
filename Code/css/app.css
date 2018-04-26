@@ -431,8 +431,54 @@ html {
 .waves-block {
   display: block;
 }*/
+
+@font-face {
+  font-family: Savate; /* Гарнитура шрифта */
+  src: url(../fonts/savate/savate-regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: Savate-Italic; /* Гарнитура шрифта */
+  src: url(../fonts/savate/savate-italic.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: Lack; /* Гарнитура шрифта */
+  src: url(../fonts/lack/lack-regular.woff); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: Lack-Italic; /* Гарнитура шрифта */
+  src: url(../fonts/lack/lack-italic.woff); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: Lack-Line-Italic; /* Гарнитура шрифта */
+  src: url(../fonts/lack/lack-line-italic.woff); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: Sporting; /* Гарнитура шрифта */
+  src: url(../fonts/sporting/sporting-regular.woff); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: Sporting-Bold; /* Гарнитура шрифта */
+  src: url(../fonts/sporting/sporting-bold.otf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: twenty; /* Гарнитура шрифта */
+  src: url(../fonts/2012-c.otf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: Stroke-Italic; /* Гарнитура шрифта */
+  src: url(../fonts/stroke.otf); /* Путь к файлу со шрифтом */
+}
+
 body {
-  font-family: 'Karla', sans-serif;
+  font-family: 'twenty', sans-serif;
   min-width: 320px;
   font-size: 22px;
   line-height: 1.3;
@@ -447,7 +493,7 @@ button,
 input,
 textarea,
 select {
-  font-family: 'Karla', sans-serif;
+  font-family: 'twenty', sans-serif;
 }
 
 a {
@@ -1290,7 +1336,7 @@ button {
 
 .title {
   margin-bottom: 10px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lack', sans-serif;
   font-size: 34px;
   font-weight: 700;
   line-height: 1.2;
@@ -1318,7 +1364,7 @@ button {
   border-radius: 4px;
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.05), 0 1px 3px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 0 rgba(255, 255, 255, 0.1);
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   text-transform: uppercase;
   font-weight: bold;
   color: #fff;
@@ -1679,8 +1725,13 @@ button {
   line-height: 1.3;
 }
 
+.quote.sm {
+  font-size: 16px;
+  line-height: 1.3;
+}
+
 .text.dollar {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'twenty', sans-serif;
   font-size: 60px;
   line-height: 1;
 }
@@ -1876,8 +1927,8 @@ button {
   font-weight: bold;
 }
 
-.text.italic {
-  font-family: 'PT Serif', sans-serif;
+.quote.italic {
+  font-family: 'Stroke-Italic', sans-serif;
   line-height: 1.4;
   font-style: italic;
 }
